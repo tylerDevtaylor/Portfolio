@@ -15,7 +15,8 @@ header {
     z-index: 100;
     display: flex;
     flex-direction: column;
-    
+    align-content: center;
+    wrap-after: line;
 
 }
 main {
@@ -65,16 +66,15 @@ ul.dropdown-menu {
 }
 .btn-secondary {
     
-    padding-left: 50px;
-    padding-right: 54px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 div.Title {
-    position: sticky;
     font-weight: 1000;
-    padding-left: 160px;
+    align-items: center;
     color: #0b2a59;
-    font-size: 50px;
-    letter-spacing: 10px;
+    font-size: 60px;
+    letter-spacing: -3px;
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
 }
 
