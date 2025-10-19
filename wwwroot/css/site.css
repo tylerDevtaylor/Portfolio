@@ -1,0 +1,130 @@
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+body {
+    position: relative;
+    min-height: 100vh;
+    background-color: #0b2a59;
+    padding-bottom: 100px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #9fc4d7;
+    height: 50px;
+    padding-bottom: 70px;
+
+}
+dropdown-item {
+    font-weight: 700;
+    color: #9fc4d7;
+    background-color: #0b2a59;
+    font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
+}
+ul.dropdown-menu {
+    background-color: #0b2a59;
+    padding-top: 20px;
+}
+
+.btn:hover {
+    color: #9fc4d7;
+    background-color: #0b2a59;
+}
+.btn:focus {
+    color: #0b2a59;
+    background-color: #9fc4d7;
+}
+.navbar-customclass {
+    position: sticky;
+    top: 0;
+    background-color: #9fc4d7;
+}
+.btn-secondary {
+    
+    padding-left: 50px;
+    padding-right: 54px;
+}
+div.Title {
+    position: sticky;
+    font-weight: 1000;
+    padding-left: 160px;
+    color: #0b2a59;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
+}
+
+
+.btn-secondary {
+    font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
+    color: #9fc4d7;
+    background-color: #0b2a59;
+    font-weight: 700;
+    font-size: 18px;
+    text-anchor: middle;
+}
+a.dropdown-item {
+    font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
+    color: #9fc4d7;
+    background-color: #0b2a59;
+    font-style: italic;
+    width: 200px;
+}
+a.dropdown-item:hover {
+    color: #0b2a59;
+    background-color: #9fc4d7;
+    
+}
+div.container-footer {
+    font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
+    color: #0b2a59;
+    font-style: italic;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+object {
+    width: 101%;
+    height: 100vh; /* Full viewport height */
+    border: groove;
+    border-color: #9fc4d7;
+    
+}
+h1.display-4 {
+    color: #9fc4d7;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
+}
+.carousel {
+    position: center;
+    width:100vh;
+}
+p.intro-1 {
+    color: #9fc4d7;
+    font-size: 20px;
+
+}

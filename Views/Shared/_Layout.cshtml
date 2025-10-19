@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Portfolio</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Portfolio.styles.css" asp-append-version="true" />
+</head>
+    <body>  
+        <header>
+            <nav class="navbar navbar-customclass navbar-toggleable-sm border-bottom box-shadow mb-3">
+                    
+                <div class="container-fluid">
+                    <img src="~/img/logo1.jpg" alt="Logo" width="80" height="68" class="d-inline-block align-text-bottom"/>
+                    <div class="Title">Taylor Development</div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="True">
+                            Portfolio
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" asp-action="Index">> About Me</a>
+                            </li>
+                            @* <li>
+                                <a class="dropdown-item" asp-action="Services">> Services</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-action="Experience">> Experience & Education</a>
+                            </li> *@
+                            <li>
+                                <a class="dropdown-item" asp-action="Resume">> Resume</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+            
+        </div>
+        <footer class="border-top footer text-muted">
+            <div class="container-footer">
+                &copy; 2025 - Portfolio
+            </div>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+</html>
