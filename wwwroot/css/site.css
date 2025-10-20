@@ -108,8 +108,8 @@ div.container-footer {
     text-align: center;
 }
 object {
-    width: 100vh;
-    height: 100vh; /* Full viewport height */
+    width: 101%;
+    height: 101vh; /* Full viewport height */
     border: groove;
     border-color: #9fc4d7;
     
