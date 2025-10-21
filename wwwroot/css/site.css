@@ -48,7 +48,9 @@ dropdown-item {
 }
 ul.dropdown-menu {
     background-color: #0b2a59;
-    padding-top: 20px;
+    padding-top: 10px;
+    align-content: center;
+    align-items: center;
 }
 
 .btn:hover {
@@ -76,6 +78,7 @@ div.Title {
     font-size: 60px;
     letter-spacing: 4px;
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
+    align-content: center;
 }
 
 
