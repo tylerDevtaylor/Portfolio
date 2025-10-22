@@ -16,16 +16,19 @@ header {
     top: 0;
     z-index: 100;
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    flex-wrap: wrap;s
+
 }
 main {
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
+    flex-wrap: nowrap;
 }
 body {
     position: relative;
@@ -33,9 +36,10 @@ body {
     background-color: #0b2a59;
     padding-bottom: 100px;
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 footer {
     position: absolute;
@@ -55,6 +59,8 @@ dropdown-item {
 ul.dropdown-menu {
     background-color: #0b2a59;
     flex-wrap: wrap;
+    margin-top: 8px !important;
+    
 }
 .btn:hover {
     color: #9fc4d7;
@@ -75,15 +81,21 @@ div.dropdown {
     display: flex;
     align-content: center;
     align-items: center;
+    height: 30px;
+    grid-column-gap: 2px;
+    
 }
 div.Title {
     font-weight: 1000;
-    align-items: center;
     color: #0b2a59;
-    font-size: 60px;
-    letter-spacing: 4px;
+    font-size: 55px;
+    letter-spacing: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
-    flex-wrap:inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -94,8 +106,8 @@ div.Title {
     background-color: #0b2a59;
     font-weight: 700;
     font-size: 18px;
-    text-anchor: middle;
-    flex-wrap: wrap;
+    padding-bottom: 10px;
+    height:40px;
 }
 
 a.dropdown-item {
@@ -114,7 +126,10 @@ div.container-fluid {
     width: 100%;
     display: inherit;
     flex-direction: column;
-
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 div.container-footer {
