@@ -8,7 +8,9 @@ html {
     font-size: 16px;
   }
 }
-
+nav {
+    width: 100%;
+}
 header {
     position: sticky;
     top: 0;
@@ -16,8 +18,7 @@ header {
     display: flex;
     flex-direction: column;
     align-content: center;
-    wrap-after: line;
-
+    width: 100%;
 }
 main {
     display: flex;
@@ -30,6 +31,11 @@ body {
     min-height: 100vh;
     background-color: #0b2a59;
     padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
 }
 footer {
     position: absolute;
@@ -48,11 +54,8 @@ dropdown-item {
 }
 ul.dropdown-menu {
     background-color: #0b2a59;
-    padding-top: 10px;
-    align-content: center;
-    align-items: center;
-}
 
+}
 .btn:hover {
     color: #9fc4d7;
     background-color: #0b2a59;
@@ -65,11 +68,18 @@ ul.dropdown-menu {
     position: sticky;
     top: 0;
     background-color: #9fc4d7;
+    width: 100%;
 }
 .btn-secondary {
     
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+}
+div.dropdown {
+    display: flex;
+    align-content: center;
+    align-items: center;
 }
 div.Title {
     font-weight: 1000;
@@ -102,6 +112,13 @@ a.dropdown-item:hover {
     background-color: #9fc4d7;
     
 }
+div.container-fluid {
+    width: 100%;
+    display: inherit;
+    flex-direction: column;
+
+}
+
 div.container-footer {
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
     color: #0b2a59;
@@ -130,5 +147,7 @@ h1.display-4 {
 p.intro-1 {
     color: #9fc4d7;
     font-size: 20px;
+    display: flex;
+    align-self: start;
 
 }
