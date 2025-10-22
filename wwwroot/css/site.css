@@ -19,6 +19,7 @@ header {
     flex-direction: column;
     align-content: center;
     width: 100%;
+    flex-wrap: wrap;s
 }
 main {
     display: flex;
@@ -33,9 +34,8 @@ body {
     padding-bottom: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 footer {
     position: absolute;
@@ -54,7 +54,7 @@ dropdown-item {
 }
 ul.dropdown-menu {
     background-color: #0b2a59;
-
+    flex-wrap: wrap;
 }
 .btn:hover {
     color: #9fc4d7;
@@ -69,12 +69,7 @@ ul.dropdown-menu {
     top: 0;
     background-color: #9fc4d7;
     width: 100%;
-}
-.btn-secondary {
-    
-    padding-left: 10px;
-    padding-right: 10px;
-    display: flex;
+    flex-wrap: wrap;
 }
 div.dropdown {
     display: flex;
@@ -88,18 +83,21 @@ div.Title {
     font-size: 60px;
     letter-spacing: 4px;
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
-    align-content: center;
+    flex-wrap:inherit;
 }
 
 
 .btn-secondary {
+    display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
     color: #9fc4d7;
     background-color: #0b2a59;
     font-weight: 700;
     font-size: 18px;
     text-anchor: middle;
+    flex-wrap: wrap;
 }
+
 a.dropdown-item {
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
     color: #9fc4d7;
