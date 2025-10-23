@@ -164,3 +164,78 @@ p.intro-1 {
     align-self: start;
 
 }
+
+.box3 main.pb-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+div.skillsBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+div.skillName {
+    color: #9fc4d7;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+bi.bi-google {
+    color: #9fc4d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+bi.bi-git {
+    color: #9fc4d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+bi.bi-github {
+    color: #9fc4d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+bi.bi-filetype-html {
+    color: #9fc4d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+svg.bi {
+    color: #9fc4d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+svg.bi-filetype-sql {
+    color: #9fc4d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+svg.bi-filetype-css {
+    color: #9fc4d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
