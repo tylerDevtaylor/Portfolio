@@ -243,6 +243,46 @@ svg.bi-filetype-css {
     text-align: center;
     
 }
+.d-grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 100%); /* 2 columns of equal width */
+    grid-template-rows: repeat(0, 100%);
+    text-align: start;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right:100px;
+}
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 100%); /* 2 columns of equal width */
+    grid-template-rows: repeat(0, 100%);
+    text-align: start;
+    padding-bottom: 15px;
+}
+
 img.azure-icon {
     color: #9fc4d7;
+}
+div.school {
+    color: #9fc4d7;
+    font-size: 30px;
+}
+div.location {
+    color: #9fc4d7;
+    font-size: 20px;
+    font-style: italic;
+}
+div.degree {
+    color: #9fc4d7;
+    font-size: 22px;
+    font-style: italic;
+}
+div.gradDate {
+    color: #9fc4d7;
+    font-size: 15px;
+    font-style: italic;
+}
+div.padding {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
