@@ -283,19 +283,19 @@ svg.bi-filetype-css {
 
     div.location {
         color: #9fc4d7;
-        font-size: 5px;
+        font-size: 2px;
         font-style: italic;
     }
 
     div.degree {
         color: #9fc4d7;
-        font-size: 5px;
+        font-size: 3px;
         font-style: italic;
     }
 
     div.gradDate {
         color: #9fc4d7;
-        font-size: 3px;
+        font-size: 2px;
         font-style: italic;
     }
 }
