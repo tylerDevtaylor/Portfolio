@@ -247,32 +247,56 @@ svg.bi-filetype-css {
 .d-grid2 {
     display: grid;
     grid-template-columns: repeat(2, 100%); /* 2 columns of equal width */
-    grid-template-rows: repeat(0, 100%);
-    text-align: start;
-    align-self: start;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 20px;
+    gap: 0px;
 }
 .d-grid {
     display: grid;
     grid-template-columns: repeat(2, 100%); /* 2 columns of equal width */
-    grid-template-rows: repeat(0, 100%);
-    align-self: center;
-    text-align: start;
-    padding-bottom: 15px;
-    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 20px;
+    gap: 0px;
 }
 @media (max-width: 600px) {
     .d-grid {
         grid-template-columns: repeat(2, min-content);
-        align-content: center;
+        align-items: center;
         justify-content: center;
+        justify-items: center;
     }
 
     .d-grid2 {
         grid-template-columns: repeat(2, min-content);
-        align-content: center;
+        align-items: center;
         justify-content: center;
+        justify-items: center;
+    }
+    div.school {
+        color: #9fc4d7;
+        font-size: 15px;
+    }
+
+    div.location {
+        color: #9fc4d7;
+        font-size: 10px;
+        font-style: italic;
+    }
+
+    div.degree {
+        color: #9fc4d7;
+        font-size: 10px;
+        font-style: italic;
+    }
+
+    div.gradDate {
+        color: #9fc4d7;
+        font-size: 6px;
+        font-style: italic;
     }
 }
 img.azure-icon {
@@ -280,7 +304,7 @@ img.azure-icon {
 }
 div.school {
     color: #9fc4d7;
-    font-size: 30px;
+    font-size: 25px;
 }
 div.location {
     color: #9fc4d7;
@@ -289,7 +313,7 @@ div.location {
 }
 div.degree {
     color: #9fc4d7;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
 }
 div.gradDate {
