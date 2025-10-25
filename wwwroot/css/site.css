@@ -172,14 +172,14 @@ p.intro-1 {
 
 
 /* EXPERIENCE CSS*/
-.box3 main.pb-3 {
+/*.box3 main.pb-3 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
-}
+}*/
 div.skillsBox {
     display: flex;
     flex-direction: row;
@@ -304,6 +304,16 @@ svg.bi-filetype-css {
         color: #9fc4d7;
         font-style: italic;
     }
+    div.projectGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 50%);
+        width: 50vh;
+        justify-content: center;
+        justify-items: center;
+        grid-row-gap: 2em;
+        grid-column-gap: .5em;
+    }
 }
 img.azure-icon {
     color: #9fc4d7;
@@ -337,12 +347,12 @@ div.boxTop {
 div.projectGrid {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(2, 50%); 
-    width: 50vh;
+    grid-template-rows: repeat(2, 80%);
+    width: 100vh;
     justify-content: center;
     justify-items: center;
-    grid-row-gap: 2em;
-    grid-column-gap: .5em;
+    grid-column-gap: 5em;
+    z-index: 100;
 }
 div.projectSummary {
     color: #9fc4d7;
@@ -353,6 +363,7 @@ h4.projectTitle{
     font-style: italic;
     justify-content: center;
     justify-items: center;
+    width: 100%
     
 }
 div.projectTiming {
@@ -363,7 +374,7 @@ div.projectTiming {
     color: #9fc4d7;
     justify-content: center;
     justify-items: center;
-    width: 50vh;
+    width: 100vh;
     
 }
 div.obj {
