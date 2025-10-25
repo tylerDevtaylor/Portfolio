@@ -270,7 +270,7 @@ svg.bi-filetype-css {
         font-size: 12px;
     }
     .d-grid {
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(2, 65%);
         align-items: center;
         justify-content: start;
         justify-items: start;
@@ -278,7 +278,7 @@ svg.bi-filetype-css {
     }
 
     .d-grid2 {
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(2, 65%);
         align-items: center;
         justify-content: start;
         justify-items: start;
@@ -286,6 +286,7 @@ svg.bi-filetype-css {
     div.school {
         color: #9fc4d7;
         font-weight: 500;
+        
     }
 
     div.location {
