@@ -255,8 +255,7 @@ svg.bi-filetype-css {
     align-items: center;
     justify-content: start;
     justify-items: start;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    grid-gap: 1em;
 }
 .d-grid {
     display: grid;
@@ -264,15 +263,14 @@ svg.bi-filetype-css {
     align-items: center;
     justify-content: start;
     justify-items: start;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    grid-gap: 0em;
 }
 @media (max-width: 600px) {
     html {
         font-size: 12px;
     }
     .d-grid {
-        grid-template-columns: repeat(2, min-content);
+        grid-template-columns: repeat(2, 50%);
         align-items: center;
         justify-content: start;
         justify-items: start;
@@ -280,7 +278,7 @@ svg.bi-filetype-css {
     }
 
     .d-grid2 {
-        grid-template-columns: repeat(2, min-content);
+        grid-template-columns: repeat(2, 50%);
         align-items: center;
         justify-content: start;
         justify-items: start;
@@ -328,11 +326,11 @@ h7.gradDate {
 }
 div.boxTop {
     display: flex;
-    flex-direction: row;
-    gap: 150px;
-    flex-wrap: wrap;
-    align-content: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 30px;
+
 }
 /* PROJECTS CSS*/
 div.projectGrid {
