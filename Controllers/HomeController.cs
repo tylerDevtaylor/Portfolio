@@ -18,7 +18,7 @@ namespace Portfolio.Controllers
             return View();
         }
 
-        public IActionResult Services()
+        public IActionResult Projects()
         {
             return View();
         }
