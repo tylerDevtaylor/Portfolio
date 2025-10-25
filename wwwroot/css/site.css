@@ -26,9 +26,9 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 body {
     position: relative;
@@ -79,8 +79,8 @@ ul.dropdown-menu {
 }
 div.dropdown {
     display: flex;
-    align-content: center;
     align-items: center;
+    justify-content: center;
     height: 30px;
     grid-column-gap: 2px;
     
@@ -93,7 +93,7 @@ div.Title {
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -101,15 +101,22 @@ div.Title {
 
 .btn-secondary {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
     color: #9fc4d7;
     background-color: #0b2a59;
     font-weight: 700;
-    font-size: 18px;
-    padding-bottom: 36px;
-    height:40px;
+    font-size: 17px;
     z-index: 100;
 }
+
+ul ul:after{
+    margin-left: -20px;
+}
+
 .linkedin-button:focus{
     visibility: hidden;
 }
@@ -126,14 +133,13 @@ a.dropdown-item:hover {
     
 }
 div.container-fluid {
-    width: 100%;
-    display: inherit;
-    height: 123px;
-    flex-direction: column;
-    flex-wrap:nowrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
     justify-content: center;
     align-items: center;
-    justify-content: center;
+    gap: 4px;
+    z-index: 100;
 }
 
 div.container-footer {
@@ -265,6 +271,9 @@ svg.bi-filetype-css {
     justify-items: start;
     grid-gap: 0em;
 }
+img.d-block.w-100 {
+    border-radius: 20px;
+}
 @media (max-width: 600px) {
     html {
         font-size: 12px;
@@ -304,15 +313,18 @@ svg.bi-filetype-css {
         color: #9fc4d7;
         font-style: italic;
     }
-    div.projectGrid {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        grid-template-rows: repeat(2, 50%);
-        width: 50vh;
+    img.d-block.w-100 {
+        border-radius: 15px;
+        z-index: 100;
+
+    }
+    div.container-fluid {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
         justify-content: center;
-        justify-items: center;
-        grid-row-gap: 2em;
-        grid-column-gap: .5em;
+        align-items: center;
+        row-gap: -50px;
     }
 }
 img.azure-icon {
