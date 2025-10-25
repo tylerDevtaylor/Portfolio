@@ -79,8 +79,8 @@ ul.dropdown-menu {
 }
 div.dropdown {
     display: flex;
-    align-content: center;
     align-items: center;
+    justify-content: center;
     height: 30px;
     grid-column-gap: 2px;
     
@@ -101,15 +101,22 @@ div.Title {
 
 .btn-secondary {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
     color: #9fc4d7;
     background-color: #0b2a59;
     font-weight: 700;
     font-size: 18px;
-    padding-bottom: 36px;
-    height:40px;
     z-index: 100;
 }
+
+ul ul:after{
+    margin-left: -20px;
+}
+
 .linkedin-button:focus{
     visibility: hidden;
 }
@@ -265,6 +272,9 @@ svg.bi-filetype-css {
     justify-items: start;
     grid-gap: 0em;
 }
+img.d-block.w-100 {
+    border-radius: 20px;
+}
 @media (max-width: 600px) {
     html {
         font-size: 12px;
@@ -303,6 +313,11 @@ svg.bi-filetype-css {
     div.gradDate {
         color: #9fc4d7;
         font-style: italic;
+    }
+    img.d-block.w-100 {
+        border-radius: 15px;
+        z-index: 100;
+
     }
 }
 img.azure-icon {
