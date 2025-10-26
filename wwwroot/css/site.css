@@ -319,6 +319,15 @@ img.d-block.w-100 {
         z-index: 100;
 
     }
+    div.container-fluid {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: -50px;
+        
+    }
 }
 img.azure-icon {
     color: #9fc4d7;
@@ -334,7 +343,7 @@ h7.location {
 h5.degree {
     color: #9fc4d7;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 399;
 }
 h7.gradDate {
     color: #9fc4d7;
