@@ -4,11 +4,12 @@ html {
 }
 
 @media (min-width: 768px) {
-  
 }
+
 nav {
     width: 100%;
 }
+
 header {
     position: sticky;
     top: 0;
@@ -19,8 +20,8 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -28,6 +29,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
 }
+
 body {
     position: relative;
     min-height: 100vh;
@@ -39,6 +41,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 footer {
     position: absolute;
     bottom: 0;
@@ -46,28 +49,31 @@ footer {
     background-color: #9fc4d7;
     height: 50px;
     padding-bottom: 70px;
-
 }
+
 dropdown-item {
     font-weight: 700;
     color: #9fc4d7;
     background-color: #0b2a59;
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
 }
+
 ul.dropdown-menu {
     background-color: #0b2a59;
     flex-wrap: wrap;
     margin-top: 8px !important;
-    
 }
+
 .btn:hover {
     color: #9fc4d7;
     background-color: #0b2a59;
 }
+
 .btn:focus {
     color: #0b2a59;
     background-color: #9fc4d7;
 }
+
 .navbar-customclass {
     position: sticky;
     top: 0;
@@ -75,14 +81,15 @@ ul.dropdown-menu {
     width: 100%;
     flex-wrap: wrap;
 }
+
 div.dropdown {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 30px;
     grid-column-gap: 2px;
-    
 }
+
 div.Title {
     font-weight: 1000;
     color: #0b2a59;
@@ -111,13 +118,14 @@ div.Title {
     z-index: 100;
 }
 
-ul ul:after{
+ul ul:after {
     margin-left: -20px;
 }
 
-.linkedin-button:focus{
+.linkedin-button:focus {
     visibility: hidden;
 }
+
 a.dropdown-item {
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
     color: #9fc4d7;
@@ -125,15 +133,16 @@ a.dropdown-item {
     font-style: italic;
     width: 200px;
 }
-a.dropdown-item:hover {
-    color: #0b2a59;
-    background-color: #9fc4d7;
-    
-}
+
+    a.dropdown-item:hover {
+        color: #0b2a59;
+        background-color: #9fc4d7;
+    }
+
 div.container-fluid {
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 4px;
@@ -148,13 +157,14 @@ div.container-footer {
     width: 100%;
     text-align: center;
 }
+
 object {
     width: 101%;
     height: 101vh; /* Full viewport height */
     border: groove;
     border-color: #9fc4d7;
-    
 }
+
 h1.display-4 {
     color: #9fc4d7;
     text-align: center;
@@ -162,16 +172,17 @@ h1.display-4 {
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
     font-weight: 500;
 }
+
 .carousel {
     position: center;
-    width:100vh;
+    width: 100vh;
 }
+
 p.intro-1 {
     color: #9fc4d7;
     font-size: 20px;
     display: flex;
     align-self: start;
-
 }
 
 
@@ -184,6 +195,7 @@ p.intro-1 {
     align-items: center;
     gap: 30px;
 }
+
 div.skillsBox {
     display: flex;
     flex-direction: row;
@@ -193,6 +205,7 @@ div.skillsBox {
     align-items: center;
     gap: 30px;
 }
+
 div.trunkBox {
     color: #9fc4d7;
     font-size: 20px;
@@ -202,6 +215,7 @@ div.trunkBox {
     align-content: center;
     align-items: center;
 }
+
 div.skillName {
     color: #9fc4d7;
     font-size: 20px;
@@ -217,6 +231,7 @@ bi.bi-google {
     justify-content: center;
     text-align: center;
 }
+
 bi.bi-git {
     fill: #9fc4d7;
     display: flex;
@@ -224,6 +239,7 @@ bi.bi-git {
     justify-content: center;
     text-align: center;
 }
+
 bi.bi-github {
     color: white;
     display: flex;
@@ -231,6 +247,7 @@ bi.bi-github {
     justify-content: center;
     text-align: center;
 }
+
 bi.bi-filetype-html {
     color: #9fc4d7;
     display: flex;
@@ -238,6 +255,7 @@ bi.bi-filetype-html {
     justify-content: center;
     text-align: center;
 }
+
 svg.bi-filetype-sql {
     color: #9fc4d7;
     display: flex;
@@ -245,22 +263,24 @@ svg.bi-filetype-sql {
     justify-content: center;
     text-align: center;
 }
+
 svg.bi-filetype-css {
     color: #9fc4d7;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
 }
+
 .d-grid2 {
     display: grid;
     grid-template-columns: repeat(2, 100%); /* 2 columns of equal width */
     align-items: center;
     justify-content: start;
-    justify-items:start;
+    justify-items: start;
     grid-gap: 0em;
 }
+
 .d-grid {
     display: grid;
     grid-template-columns: repeat(2, 100%); /* 2 columns of equal width */
@@ -269,16 +289,20 @@ svg.bi-filetype-css {
     justify-items: start;
     grid-gap: 0em;
 }
+
 img.d-block.w-100 {
     border-radius: 20px;
 }
+
 @media (max-width: 600px) {
     html {
         font-size: 12px;
     }
-    content  {
+
+    content {
         width: 600px;
     }
+
     .d-grid {
         grid-template-columns: repeat(2, 65%);
         align-items: center;
@@ -293,10 +317,10 @@ img.d-block.w-100 {
         justify-content: start;
         justify-items: start;
     }
+
     div.school {
         color: #9fc4d7;
         font-weight: 500;
-        
     }
 
     div.location {
@@ -309,6 +333,7 @@ img.d-block.w-100 {
         font-style: italic;
         font-weight: 400;
     }
+
     div.boxTop {
         display: flex;
         flex-direction: column;
@@ -316,15 +341,17 @@ img.d-block.w-100 {
         align-items: center;
         gap: 30px;
     }
+
     div.gradDate {
         color: #9fc4d7;
         font-style: italic;
     }
+
     img.d-block.w-100 {
         border-radius: 15px;
         z-index: 100;
-
     }
+
     div.container-fluid {
         display: flex;
         flex-direction: column;
@@ -333,6 +360,10 @@ img.d-block.w-100 {
         align-items: center;
         row-gap: -50px;
     }
+    footer {
+        position: absolute;
+        margin: -500px;
+    }
     div.projectGrid {
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -340,7 +371,9 @@ img.d-block.w-100 {
         justify-items: center;
         grid-row-gap: 3em;
         grid-column-gap: 3em;
+        height: 100vh;
     }
+
     div.projectTiming {
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -348,36 +381,39 @@ img.d-block.w-100 {
         justify-items: center;
         align-items: center;
     }
-    
 }
 
 img.azure-icon {
     color: #9fc4d7;
 }
+
 h3.school {
     color: #9fc4d7;
     font-weight: 500;
 }
+
 h7.location {
     color: #9fc4d7;
     font-style: italic;
 }
+
 h5.degree {
     color: #9fc4d7;
     font-style: italic;
     font-weight: 400;
 }
+
 h7.gradDate {
     color: #9fc4d7;
     font-style: italic;
 }
+
 div.boxTop {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-
 }
 /* PROJECTS CSS*/
 
@@ -390,18 +426,20 @@ div.projectGrid {
     grid-column-gap: 3em;
     height: 70vh;
 }
+
 div.projectSummary {
     color: #9fc4d7;
 }
-h4.projectTitle{
+
+h4.projectTitle {
     display: flex;
     flex-direction: row;
     font-weight: 200;
     font-style: italic;
     justify-content: start;
     align-items: center;
-    
 }
+
 div.projectTiming {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -409,9 +447,11 @@ div.projectTiming {
     justify-items: center;
     align-items: center;
 }
+
 h3.whenTitle {
     color: #9fc4d7;
 }
+
 div.obj {
     color: #9fc4d7;
 }
