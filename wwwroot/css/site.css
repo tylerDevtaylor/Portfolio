@@ -167,7 +167,9 @@ object {
 
 h1.display-4 {
     color: #9fc4d7;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
     font-weight: 500;
@@ -187,7 +189,7 @@ p.intro-1 {
 
 
 /* EXPERIENCE CSS*/
-.box3 main.pb-3 {
+div.skillsWrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -275,19 +277,18 @@ svg.bi-filetype-css {
 .d-grid2 {
     display: grid;
     grid-template-columns: repeat(2, 100%); /* 2 columns of equal width */
-    align-items: center;
-    justify-content: start;
-    justify-items: start;
-    grid-gap: 0em;
+    align-items: start;
+    align-content: start;
+    justify-content: center;
+    justify-items: center;
 }
 
 .d-grid {
     display: grid;
     grid-template-columns: repeat(2, 100%); /* 2 columns of equal width */
-    align-items: center;
-    justify-content: start;
-    justify-items: start;
-    grid-gap: 0em;
+    align-items: start;
+    justify-content: center;
+    justify-items: center;
 }
 
 img.d-block.w-100 {
@@ -362,7 +363,7 @@ img.d-block.w-100 {
     }
     footer {
         position: absolute;
-        margin: -500px;
+        margin: -600px;
     }
     div.projectGrid {
         display: grid;
