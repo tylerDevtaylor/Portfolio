@@ -26,9 +26,9 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 body {
     position: relative;
@@ -93,7 +93,7 @@ div.Title {
     font-family: Georgia, 'Times New Roman', Times, serif'Bookman Old Style', cursive;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -109,7 +109,7 @@ div.Title {
     color: #9fc4d7;
     background-color: #0b2a59;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 18px;
     z-index: 100;
 }
 
@@ -133,13 +133,14 @@ a.dropdown-item:hover {
     
 }
 div.container-fluid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
+    width: 100%;
+    display: inherit;
+    height: 123px;
+    flex-direction: column;
+    flex-wrap:nowrap;
     justify-content: center;
     align-items: center;
-    gap: 4px;
-    z-index: 100;
+    justify-content: center;
 }
 
 div.container-footer {
@@ -317,14 +318,6 @@ img.d-block.w-100 {
         border-radius: 15px;
         z-index: 100;
 
-    }
-    div.container-fluid {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        row-gap: -50px;
     }
 }
 img.azure-icon {
