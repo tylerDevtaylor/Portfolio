@@ -28,27 +28,31 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex: 1;
 }
-
 body {
     position: relative;
     min-height: 100vh;
     background-color: #0b2a59;
     padding-bottom: 100px;
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
 
 footer {
-    position: absolute;
-    bottom: 0;
+    
     text-align: center;
     background-color: #9fc4d7;
     height: 50px;
-    padding-bottom: 70px;
+    margin: -100px;
 }
 
 dropdown-item {
@@ -294,7 +298,6 @@ svg.bi-filetype-css {
 img.d-block.w-100 {
     border-radius: 20px;
 }
-
 @media (max-width: 600px) {
     html {
         font-size: 12px;
@@ -363,9 +366,18 @@ img.d-block.w-100 {
         row-gap: -50px;
     }
 
+    body {
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1;
+    }
+
     footer {
-        position: absolute;
-        margin: -600px;
     }
 
     div.projectSummary {
@@ -377,26 +389,146 @@ img.d-block.w-100 {
         display: grid;
         grid-template-columns: repeat(2, auto);
         justify-content: center;
-        justify-items: center;
-        grid-row-gap: 3em;
-        grid-column-gap: 3em;
+        align-items: center;
+        grid-row-gap: 2em;
+        grid-column-gap: 2em;
         height: 100vh;
-        width: 100vw;
+        width: 110vw;
     }
 
     div.projectTiming {
         display: grid;
         grid-template-columns: repeat(2, auto);
-        width: 40vw;
+        width: 40%;
+        grid-column-gap: 2em;
+        justify-items: center;
+        align-items: center;
+    }
+
+    h3.whenTitle {
+        font-size: unset !important;
+    }
+
+    h4.projectTitle {
+        font-size: unset !important;
+    }
+
+    h7.projectSummary {
+        font-size: unset !important;
+    }
+}
+@media (min-width: 601px) and (max-width: 1200px) {
+    html {
+        font-size: 12px;
+    }
+
+    content {
+        width: 600px;
+    }
+
+    .d-grid {
+        grid-template-columns: repeat(2, 65%);
+        align-items: center;
+        justify-content: start;
+        justify-items: start;
+        width: 100vw;
+    }
+
+    .d-grid2 {
+        grid-template-columns: repeat(2, 65%);
+        align-items: center;
+        justify-content: start;
+        justify-items: start;
+        width: 100vw;
+    }
+
+    div.school {
+        color: #9fc4d7;
+        font-weight: 500;
+    }
+
+    div.location {
+        color: #9fc4d7;
+        font-style: italic;
+    }
+
+    div.degree {
+        color: #9fc4d7;
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    div.boxTop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    div.gradDate {
+        color: #9fc4d7;
+        font-style: italic;
+    }
+
+    img.d-block.w-100 {
+        border-radius: 15px;
+        z-index: 100;
+    }
+
+    div.container-fluid {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: -50px;
+    }
+    body {
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        flex: 1;
+    }
+    footer {
+        margin: -550px;
+    }
+
+    div.projectSummary {
+        width: 75vw;
+        font-size: 12px;
+    }
+
+    div.projectGrid {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        align-items: center;
+        grid-row-gap: 2em;
+        grid-column-gap: 2em;
+        height: 100vh;
+        width: 110vw;
+    }
+
+    div.projectTiming {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        width: 40%;
         grid-column-gap: 2em;
         justify-items: center;
         align-items: center;
     }
     h3.whenTitle {
-        font-size: 18px;
+        font-size: 30px !important;
     }
     h4.projectTitle{
-        font-size: 14px;
+        font-size: 22px !important;
+    }
+    h7.projectSummary{
+        font-size: 18px !important;
     }
 }
 img.azure-icon {
