@@ -378,6 +378,7 @@ img.d-block.w-100 {
     }
 
     footer {
+        margin: -600px;
     }
 
     div.projectSummary {
